@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4571572569CDBA1FD8BB5840 /* Pods_PDFViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D2F515FC5AACA31A6FF2B3 /* Pods_PDFViewer.framework */; };
+		ED990EDD2829339D007602AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED990EDC2829339D007602AB /* AppDelegate.swift */; };
+		ED990EE62829339F007602AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED990EE52829339F007602AB /* Assets.xcassets */; };
+		ED990EE92829339F007602AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED990EE72829339F007602AB /* LaunchScreen.storyboard */; };
+		ED990EF22829344C007602AB /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED990EF12829344C007602AB /* Launch.swift */; };
+		ED990EF72829347A007602AB /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED990EF62829347A007602AB /* Navigation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3376D1A8533AE37371FAC5A3 /* Pods-PDFViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.debug.xcconfig"; path = "Target Support Files/Pods-PDFViewer/Pods-PDFViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		83D2F515FC5AACA31A6FF2B3 /* Pods_PDFViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FE7D49F5307E51816819C5 /* Pods-PDFViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFViewer.release.xcconfig"; path = "Target Support Files/Pods-PDFViewer/Pods-PDFViewer.release.xcconfig"; sourceTree = "<group>"; };
+		ED990ED92829339D007602AB /* PDFViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED990EDC2829339D007602AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED990EE52829339F007602AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED990EE82829339F007602AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED990EEA2829339F007602AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED990EF12829344C007602AB /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		ED990EF62829347A007602AB /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED990ED62829339D007602AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4571572569CDBA1FD8BB5840 /* Pods_PDFViewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533935FEC4F5689CF17252B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83D2F515FC5AACA31A6FF2B3 /* Pods_PDFViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D40C179E248702A0F31CFAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3376D1A8533AE37371FAC5A3 /* Pods-PDFViewer.debug.xcconfig */,
+				C5FE7D49F5307E51816819C5 /* Pods-PDFViewer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED990ED02829339D007602AB = {
+			isa = PBXGroup;
+			children = (
+				ED990EDB2829339D007602AB /* PDFViewer */,
+				ED990EDA2829339D007602AB /* Products */,
+				5D40C179E248702A0F31CFAE /* Pods */,
+				533935FEC4F5689CF17252B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED990EDA2829339D007602AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED990ED92829339D007602AB /* PDFViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED990EDB2829339D007602AB /* PDFViewer */ = {
+			isa = PBXGroup;
+			children = (
+				ED990EF528293461007602AB /* Supports */,
+				ED990EF42829345A007602AB /* Assets */,
+				ED990EF328293452007602AB /* Utility */,
+				ED990EF02829340E007602AB /* Launch */,
+			);
+			path = PDFViewer;
+			sourceTree = "<group>";
+		};
+		ED990EF02829340E007602AB /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				ED990EE72829339F007602AB /* LaunchScreen.storyboard */,
+				ED990EF12829344C007602AB /* Launch.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		ED990EF328293452007602AB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				ED990EDC2829339D007602AB /* AppDelegate.swift */,
+				ED990EF62829347A007602AB /* Navigation.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		ED990EF42829345A007602AB /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ED990EE52829339F007602AB /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		ED990EF528293461007602AB /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				ED990EEA2829339F007602AB /* Info.plist */,
+			);
+			name = Supports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED990ED82829339D007602AB /* PDFViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED990EED2829339F007602AB /* Build configuration list for PBXNativeTarget "PDFViewer" */;
+			buildPhases = (
+				799E65A295B2D6499BCD0D4E /* [CP] Check Pods Manifest.lock */,
+				ED990ED52829339D007602AB /* Sources */,
+				ED990ED62829339D007602AB /* Frameworks */,
+				ED990ED72829339D007602AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFViewer;
+			productName = PDFViewer;
+			productReference = ED990ED92829339D007602AB /* PDFViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED990ED12829339D007602AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					ED990ED82829339D007602AB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = ED990ED42829339D007602AB /* Build configuration list for PBXProject "PDFViewer" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED990ED02829339D007602AB;
+			productRefGroup = ED990EDA2829339D007602AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED990ED82829339D007602AB /* PDFViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED990ED72829339D007602AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED990EE92829339F007602AB /* LaunchScreen.storyboard in Resources */,
+				ED990EE62829339F007602AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		799E65A295B2D6499BCD0D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED990ED52829339D007602AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED990EF72829347A007602AB /* Navigation.swift in Sources */,
+				ED990EF22829344C007602AB /* Launch.swift in Sources */,
+				ED990EDD2829339D007602AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED990EE72829339F007602AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED990EE82829339F007602AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED990EEB2829339F007602AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED990EEC2829339F007602AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED990EEE2829339F007602AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3376D1A8533AE37371FAC5A3 /* Pods-PDFViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6H5489H9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrdijital.PDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		ED990EEF2829339F007602AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FE7D49F5307E51816819C5 /* Pods-PDFViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6H5489H9H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PDFViewer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hrdijital.PDFViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED990ED42829339D007602AB /* Build configuration list for PBXProject "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED990EEB2829339F007602AB /* Debug */,
+				ED990EEC2829339F007602AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED990EED2829339F007602AB /* Build configuration list for PBXNativeTarget "PDFViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED990EEE2829339F007602AB /* Debug */,
+				ED990EEF2829339F007602AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED990ED12829339D007602AB /* Project object */;
+}
